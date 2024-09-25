@@ -98,28 +98,30 @@ body {
   }
 }
 
-/* Mobile Landscape (max-width: 768px) */
-@media only screen and (max-width: 768px)  {
+/* Media quiries*/
+@media only screen and (max-width: 480px) {
   .container {
-    padding: 10px;
-  }
-  h1 {
-    font-size: 25px;
-  }
-  .stopwatch {
     padding: 20px;
   }
-  .display {
+  h1 {
     font-size: 30px;
   }
+  .stopwatch {
+    padding: 30px;
+  }
+  .display {
+    font-size: 36px;
+  }
   .digit {
-    font-size: 60px;
+    font-size: 80px;
   }
   .btn {
-    padding: 6px 12px;
-    font-size: 18px;
-  }
-  .text {
+    padding: 8px 16px;
     font-size: 20px;
   }
+  .text {
+    font-size: 24px;
+  }
 }
+
+
