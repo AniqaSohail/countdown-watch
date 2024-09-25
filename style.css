@@ -1,0 +1,125 @@
+/* CSS (refactored) */
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(63, 9, 121, 0.6867121848739496) 35%);
+    color: black;
+    font-family: sans-serif;
+    height: 50vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .stopwatch {
+    background: #c689ffb3;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid #c689ff;
+  }
+
+  
+  .display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .digit {
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .btn {
+    margin: 10px;
+    background-color: #c689ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-style: bold;
+  }
+  
+  .text {
+    font-size: 32px;
+  }
+  
+  .stopwatch button:hover {
+    background-color:  transparent;
+    color:black; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+    cursor: pointer; 
+  }
+  /* Mobile (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .stopwatch {
+    padding: 30px;
+  }
+  .display {
+    font-size: 36px;
+  }
+  .digit {
+    font-size: 80px;
+  }
+  .btn {
+    padding: 8px 16px;
+    font-size: 20px;
+  }
+  .text {
+    font-size: 24px;
+  }
+  /* Additional styles for mobile devices */
+  .stopwatch {
+    margin: 20px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile Landscape (max-width: 768px) */
+@media only screen and (max-width: 768px)  {
+  .container {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .stopwatch {
+    padding: 20px;
+  }
+  .display {
+    font-size: 30px;
+  }
+  .digit {
+    font-size: 60px;
+  }
+  .btn {
+    padding: 6px 12px;
+    font-size: 18px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
